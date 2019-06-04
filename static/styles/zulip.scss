@@ -3031,6 +3031,46 @@ div.topic_edit_spinner .loading_indicator_spinner {
 
 /*------------------------------------ STORMFREE STYLING --------------------------------------*/
 
+/* nunito-sans-regular - latin */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../icons/fonts/nunito-sans-v4-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Nunito Sans Regular'), local('NunitoSans-Regular'),
+       url('../icons/fonts/nunito-sans-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../icons/fonts/nunito-sans-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../icons/fonts/nunito-sans-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../icons/fonts/nunito-sans-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../icons/fonts/nunito-sans-v4-latin-regular.svg#NunitoSans') format('svg'); /* Legacy iOS */
+}
+/* nunito-sans-600 - latin */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../icons/fonts/nunito-sans-v4-latin-600.eot'); /* IE9 Compat Modes */
+  src: local('Nunito Sans SemiBold'), local('NunitoSans-SemiBold'),
+       url('../icons/fonts/nunito-sans-v4-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../icons/fonts/nunito-sans-v4-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../icons/fonts/nunito-sans-v4-latin-600.woff') format('woff'), /* Modern Browsers */
+       url('../icons/fonts/nunito-sans-v4-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../icons/fonts/nunito-sans-v4-latin-600.svg#NunitoSans') format('svg'); /* Legacy iOS */
+}
+/* nunito-sans-700 - latin */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../icons/fonts/nunito-sans-v4-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Nunito Sans Bold'), local('NunitoSans-Bold'),
+       url('../icons/fonts/nunito-sans-v4-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../icons/fonts/nunito-sans-v4-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../icons/fonts/nunito-sans-v4-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../icons/fonts/nunito-sans-v4-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../icons/fonts/nunito-sans-v4-latin-700.svg#NunitoSans') format('svg'); /* Legacy iOS */
+}
+
 body { font-family: "Nunito Sans", Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 15px; color: #454545; font-weight: 400; }
 button, input, select, textarea { font-family: "Nunito Sans", Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 15px; }
 .uneditable-input, input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea { font-size: 1rem; }
