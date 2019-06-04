@@ -135,13 +135,13 @@ exports.colorize_tab_bar = function () {
                 colorspace.getDecimalColor(color_for_stream), 0.2));
 
         if (stream_tab.hasClass("stream")) {
-            stream_tab.css('background-color', color_for_stream);
+            stream_tab.css('color', color_for_stream);
             if (stream_tab.hasClass("inactive")) {
                 stream_tab.hover (
                     function () {
-                        $(this).css('background-color', stream_light);
+                        $(this).css('color', stream_light);
                     }, function () {
-                        $(this).css('background-color', color_for_stream);
+                        $(this).css('color', color_for_stream);
                     }
                 );
             }
