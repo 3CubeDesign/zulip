@@ -3143,6 +3143,7 @@ li.active-filter, li.active-sub-filter { background: #3E3E3E!important; border-r
 #global_filters .global-filter .stream-sidebar-arrow i { color: #A0A4A7!important; }
 #global_filters .global-filter .arrow i { font-size: inherit!important; padding: 7px 0!important; }
 #global_filters .count { margin-right: 15px!important; }
+#global_filters>li a.conversation-partners { padding-left: 5px!important; font-size: 15px!important; }
 .narrows_panel li { margin: 2px 0!important; }
 #stream_filters li.highlighted_stream, .bottom_left_row:hover, .top_left_row:hover { background-color: transparent!important; }
 #stream_filters .count, .private_message_count, .top_left_all_messages .count, .top_left_mentions .count, .top_left_private_messages .count, .top_left_starred_messages .count, .topic-unread-count { border-radius: 8px!important; text-align: center!important; }
@@ -3173,11 +3174,12 @@ li.show-more-topics a { font-size: 100%!important; }
 .input-append input[type="text"].stream-list-filter { background-color: transparent!important; color: #fff!important; border-radius: 0!important; border-left: none!important; border-top: none!important; border-right: none!important; border-bottom: 1px solid #7e827d!important; }
 .left-sidebar .ps__rail-y { background-color: #222222!important; }
 #add-stream-link { margin-left: 17px!important; }
+.pm-box .user_circle { min-width: 10px!important; height: 10px!important; }
 
 /*---------- CONTENT ----------------*/
 
 #tab_list li { padding: 0 10px; }
-.message_area_padder { background: #EAECEE!important; padding: 15px!important; margin-top: 51px!important; }
+.message_area_padder { background: #EAECEE!important; padding: 15px!important; margin-top: 51px!important; min-height: 91vh!important; }
 .message_list .recipient_row { background: #fff; border-radius: 6px!important; border: none!important; }
 .message_header { border-bottom: 1px solid #EAECEE!important; line-height: 38px!important; overflow: visible!important; }
 .message-header-contents { background-color: #fff!important; border: none!important; border-radius: 6px 6px 0 0!important; }
