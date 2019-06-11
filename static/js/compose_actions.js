@@ -139,7 +139,7 @@ exports.decorate_stream_bar = function (stream_name) {
     var color = stream_data.get_color(stream_name);
     update_lock_icon_for_stream(stream_name);
     $("#stream-message .message_header_stream")
-        .css('background-color', color)
+        .css('color', color)
         .removeClass(stream_color.color_classes)
         .addClass(stream_color.get_color_class(color));
 };
