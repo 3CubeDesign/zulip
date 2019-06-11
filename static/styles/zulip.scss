@@ -3106,6 +3106,9 @@ nav .column-left .nav-logo { height: 37px!important; }
 
 #tab_bar #tab_list li.active { line-height: 50px!important; background-color: transparent!important; font-weight: 600!important; }
 #tab_bar #tab_list li.active:after { content: ""; display: inline-block; position: absolute; top: 10px; right: 0; background: #eaecee; width: 1px; height: 30px; line-height: 50px; }
+#tab_bar #tab_list li.private_message { color: #454545!important; padding: 0 11px!important }
+#tab_bar #tab_list li.private_message a { color: #454545!important; }
+#tab_bar #tab_list li.inactive.private_message { line-height: 50px!important; display: inline-block!important; }
 #tab_bar #tab_list li + li { padding: 0 10px 0 5px!important; }
 #tab_bar #tab_list li + li.active { margin-left: -10px!important; }
 #tab_bar #tab_list li + li.active:before { content: ""; position: relative; left: -5px; top: -1px; border: solid #c1c1c1; border-width: 0 2px 2px 0; display: inline-block; padding: 3px; transform: rotate(-45deg); -webkit-transform: rotate(-45deg); }
@@ -3141,6 +3144,7 @@ li.active-filter, li.active-sub-filter { background: #3E3E3E!important; border-r
 #global_filters li.global-filter.active-filter { background: #454545; border-radius: 6px!important; }
 #global_filters li.global-filter.active-filter a, #global_filters li.global-filter.active-filter i { color: #ffffff!important; font-weight: 600!important; }
 #global_filters .global-filter .stream-sidebar-arrow i { color: #A0A4A7!important; }
+.stream-sidebar-arrow i:hover { color: #fff!important; }
 #global_filters .global-filter .arrow i { font-size: inherit!important; padding: 7px 0!important; }
 #global_filters .count { margin-right: 15px!important; }
 #global_filters>li a.conversation-partners { padding-left: 5px!important; font-size: 15px!important; }
@@ -3160,6 +3164,8 @@ li.active-filter, li.active-sub-filter { background: #3E3E3E!important; border-r
 .all-messages-arrow, .starred-messages-sidebar-arrow, .stream-sidebar-arrow { top: 3px!important; right: 3px!important; font-size: 1em!important; }
 #global_filters li span.arrow i { font-size: 13px!important; position: relative!important; top: 1px!important; right: 3px!important; }
 .topic-sidebar-arrow { font-size: 1em!important; }
+.topic-sidebar-arrow i { padding-right: 0!important; }
+.topic-sidebar-arrow i:hover { color: #fff!important; }
 ul.filters a { color: #d2d2d2!important; }
 ul.filters a:hover { color: #0796ED!important; }
 ul.filters li .arrow { padding-right: 0!important; }
