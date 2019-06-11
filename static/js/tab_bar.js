@@ -122,7 +122,7 @@ function make_tab_data() {
 exports.colorize_tab_bar = function () {
     var stream_tab = $('#tab_list .stream');
     if (stream_tab.length > 0) {
-        var stream_name = stream_tab.data('<span>name</span>');
+        var stream_name = stream_tab.data('name');
         if (stream_name === undefined) {
             return;
         }
