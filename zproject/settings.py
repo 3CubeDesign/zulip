@@ -913,9 +913,9 @@ PIPELINE = {
     'STYLESHEETS': {
         'app': {
             'source_filenames': (
-                'styles/stormfree.scss'
+                './static/styles/stormfree.scss'
             ),
-            'output_filename': 'min/stormfree.css'
+            'output_filename': './static/styles/stormfree.scss'
         },
     },
     'JAVASCRIPT': {},
