@@ -910,7 +910,14 @@ PIPELINE = {
     'PIPELINE_ENABLED': PIPELINE_ENABLED,
     'CSS_COMPRESSOR': 'pipeline.compressors.yui.YUICompressor',
     'YUI_BINARY': '/usr/bin/env yui-compressor',
-    'STYLESHEETS': {'static/styles/stormfree.scss'},
+    'STYLESHEETS': {
+        'app': {
+            'source_filenames': (
+                'styles/stormfree.scss'
+            ),
+            'output_filename': 'min/stormfree.css'
+        },
+    },
     'JAVASCRIPT': {},
 }
 
