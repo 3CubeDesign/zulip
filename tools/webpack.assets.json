@@ -103,7 +103,6 @@
     "archive-styles": [
         "./node_modules/katex/dist/katex.css",
         "./static/styles/zulip.scss",
-        "./static/styles/stormfree.scss",
         "./static/styles/media.scss",
         "./static/styles/archive.scss"
     ]
