@@ -3144,6 +3144,7 @@ li.active-filter, li.active-sub-filter { background: #3E3E3E!important; border-r
 #global_filters li.global-filter.active-filter { background: #454545; border-radius: 6px!important; }
 #global_filters li.global-filter.active-filter a, #global_filters li.global-filter.active-filter i { color: #ffffff!important; font-weight: 600!important; }
 #global_filters .global-filter .stream-sidebar-arrow i { color: #A0A4A7!important; }
+.stream-sidebar-arrow i { text-align: center!important; }
 .stream-sidebar-arrow i:hover { color: #fff!important; }
 #global_filters .global-filter .arrow i { font-size: inherit!important; padding: 7px 0!important; }
 #global_filters .count { margin-right: 15px!important; }
@@ -3340,6 +3341,7 @@ body.night-mode .column-middle, body.night-mode #searchbox_legacy, body.night-mo
 body.night-mode .column-middle-inner, body.night-mode .message_header, body.night-mode .column-right { border-bottom: 1px solid #454545!important; }
 body.night-mode .message_list .recipient_row { background-color: #333333!important; }
 body.night-mode .message-header-contents { background-color: #333333!important; }
+body.night-mode .message_header_stream a.message_label_clickable span { color: #fff!important; }
 body.night-mode .message_content { color: #d2d2d2!important; }
 body.night-mode input[type=text] { background-color: transparent!important; }
 body.night-mode .message_content code { background: #222222!important; }
