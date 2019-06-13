@@ -296,6 +296,7 @@ body.night-mode .column-left { border-right: 1px solid #222222; z-index: 3; }
 body.night-mode #searchbox_legacy #search_query { background-color: rgba(42, 42, 42, 1)!important; }
 body.night-mode #userlist-toggle-button { color: #ffffff!important; }
 body.night-mode #tab_bar #tab_list li { color: #fff!important; }
+body.night-mode #tab_bar #tab_list li.private_message a { color: #fff!important; }
 body.night-mode #tab_bar #tab_list li.active:after { background: #454545!important; }
 body.night-mode #tab_bar #tab_list li.narrow_description, body.night-mode #tab_bar #tab_list li.sub_count { color: #a1a1a1!important; }
 body.night-mode #tab_bar #tab_list li.sub_count:before, body.night-mode #tab_bar #tab_list li.sub_count:after { background: #454545!important; }
@@ -303,7 +304,6 @@ body.night-mode #message_edit_tooltip, body.night-mode #searchbox .search_button
 body.night-mode #compose, body.night-mode #settings_page .form-sidebar, body.night-mode #settings_page .right, body.night-mode #subscription_overlay .right, body.night-mode #tab_bar_underpadding, body.night-mode .app-main, body.night-mode .column-left .left-sidebar, body.night-mode .column-middle, body.night-mode .column-right .right-sidebar, body.night-mode .floating_recipient .message-header-wrapper, body.night-mode .header-main { background-color: #222222!important; }
 body.night-mode .message_area_padder { background-color: #222222!important; }
 body.night-mode .floating_recipient .message-header-contents { box-shadow: 0 2px 5px 2px #222222!important; }
-body.night-mode a.message_label_clickable.narrows_by_topic, body.night-mode .stream_label { color: #fff!important; }
 body.night-mode a.message_label_clickable.narrows_by_topic:hover, body.night-mode .stream_label.dark_background:hover, body.night-mode .message_header_stream a.stream_label.message_label_clickable:hover { color: #0796ED!important; text-decoration: none!important;}
 body.night-mode .column-middle, body.night-mode #searchbox_legacy, body.night-mode .header-main { background-color: rgba(42, 42, 42, 1)!important; }
 body.night-mode .column-middle-inner, body.night-mode .message_header, body.night-mode .column-right { border-bottom: 1px solid #454545!important; }
