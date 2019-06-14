@@ -102,7 +102,7 @@ li.active-filter, li.active-sub-filter { background: #3E3E3E; border-radius: 0; 
 #global_filters > li a { color: #d2d2d2; }
 #global_filters > li.active-filter .private_messages_header a { color: #fff; font-weight: 700; }
 .app-main .column-left .left-sidebar { margin-top: 40px; }
-.left-sidebar li { border-radius: 0px; }
+.left-sidebar li { border-radius: 6px; }
 .left-sidebar .top_left_row { padding-left: 0px; padding-right: 0px; }
 #global_filters li:hover, #stream_filters li.highlighted_stream, #stream_filters li:hover { background: #3E3E3E; border-radius: 6px; }
 #stream_filters li ul.topic-list li { padding: 0; }
@@ -119,7 +119,7 @@ li.active-filter, li.active-sub-filter { background: #3E3E3E; border-radius: 0; 
 #global_filters > li a.conversation-partners { padding-left: 5px; font-size: 15px; }
 #global_filters li.active-sub-filter a.conversation-partners { font-weight: 700; color: #fff; }
 .narrows_panel li { margin: 2px 0; }
-#stream_filters li.highlighted_stream, .bottom_left_row:hover, .top_left_row:hover { background-color: transparent!important; }
+#stream_filters li.highlighted_stream, .bottom_left_row:hover, .top_left_row:hover { background-color: transparent; }
 #stream_filters .count, .private_message_count, .top_left_all_messages .count, .top_left_mentions .count, .top_left_private_messages .count, .top_left_starred_messages .count, .topic-unread-count { border-radius: 8px; text-align: center; }
 #streams_header { padding: 0 0 8px 16px; }
 .stream_list_toggle { margin-left: -12px; margin-right: 5px; }
@@ -134,7 +134,7 @@ li.active-filter, li.active-sub-filter { background: #3E3E3E; border-radius: 0; 
 .all-messages-arrow, .starred-messages-sidebar-arrow, .stream-sidebar-arrow { top: 3px; right: 3px; font-size: 1em; }
 #global_filters li span.arrow i { font-size: 13px; position: relative; top: 1px; right: 3px; }
 .topic-sidebar-arrow { font-size: 1em; }
-.topic-sidebar-arrow i { padding-right: 0; }
+.topic-sidebar-arrow i { padding-right: 0; text-align: center; }
 .topic-sidebar-arrow i:hover { color: #fff; }
 ul.filters a { color: #d2d2d2; }
 ul.filters a:hover { color: #0796ED; }
@@ -189,7 +189,7 @@ div.focused_table { font-size: 15px; }
 .message_header_private_message .message_label_clickable { background-color: transparent; padding: 3px 11px 2px; font-weight: 600; }
 .private-message .date_row, .private-message .messagebox { background-color: transparent; }
 .include-sender .message_content:not(:empty) { margin-top: -25px; }
-.messagebox { box-shadow: none; }
+.messagebox { box-shadow: none!important; }
 .message_row { border: none; }
 .sender_name { font-weight: bold; font-size: 1rem; }
 .inline_profile_picture { height: 40px; width: 40px; }
@@ -338,7 +338,7 @@ body.night-mode #compose_buttons .button.small { background-color: #454545; }
 body.night-mode #compose_buttons .button.small:hover { background-color: #157BB9; }
 body.night-mode .message_header_colorblock { border-color: #909090; }
 body.night-mode #send_controls .compose_checkbox_label { color: #fff; }
-body.night-mode textarea.new_message_textarea:focus, body.night-mode textarea:focus { border-color: #909090; }
+body.night-mode textarea.new_message_textarea:focus, body.night-mode textarea:focus, body.night-mode .compose_table .recipient_box:focus { border-color: #909090; }
 
 body.night-mode .column-right .right-sidebar { background-color: #2a2a2a; }
 body.night-mode .right-sidebar .sidebar-title { color: #d2d2d2; opacity: 1; }
