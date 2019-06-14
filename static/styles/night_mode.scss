@@ -63,7 +63,7 @@ body.night-mode {
     .message_reactions .message_reaction_count,
     .message_reactions .reaction_button i,
     .message_reactions:hover .message_reaction + .reaction_button {
-        color: inherit !important;
+        /*color: inherit !important;*/
     }
 
     /* It's a little annoying that we need to specify the different
