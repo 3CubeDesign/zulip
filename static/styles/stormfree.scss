@@ -274,7 +274,7 @@ input[type="text"], textarea, .input-append input[type=text], .new-style input[t
 #account-settings #show_my_user_profile_modal, #user-info-form-modal #show_my_user_profile_modal { width: auto; }
 #user-profile-modal #avatar { border: none; }
 .rendered_markdown ul { margin: 2px 0 10px 0px; }
-.uneditable-input:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime-local]:focus, input[type=datetime]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, input[type=password]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=text]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, textarea:focus { box-shadow: none; }
+.uneditable-input:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime-local]:focus, input[type=datetime]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, input[type=password]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=text]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, textarea:focus { box-shadow: none!important; border-left: none!important; border-right: none!important; border-top: none!important; }
 textarea#invitee_emails, select#invite_as { border-left: none; border-right: none; border-top: none; }
 #invite-user .overlay-content { width: 700px; }
 #invite-user .modal-body { margin-bottom: 66px; }
