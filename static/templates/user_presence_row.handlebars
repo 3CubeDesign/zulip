@@ -7,9 +7,9 @@
           data-name="{{name}}"
           title="{{title}}">
             {{name}}
-            {{#if user_status}}
-            <span class="my_user_status">{{user_status}}</span>
-            <span class="my_user_status">{{{user_status}}}</span>
+            {{#if status_message}}
+            <span class="my_user_status">{{status_message}}</span>
+            <span class="my_user_status">{{{status_message}}}</span>
             {{/if}}
         </a>
         <span class="count"><span class="value">{{#if num_unread}}{{num_unread}}{{/if}}</span></span>
