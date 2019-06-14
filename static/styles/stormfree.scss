@@ -235,6 +235,7 @@ input[type="text"], textarea, .input-append input[type=text], .new-style input[t
 .compose_table .right_part .fa-angle-right { font-size: 1.2em; text-stroke: initial; -webkit-text-stroke: initial; color: #c1c1c1; }
 .compose_table #compose-lock-icon { left: -2px; top: -8px; }
 #compose-lock-icon i.fa.fa-lock { font-size: 10px; }
+.compose_table .recipient_box:focus, textarea.new_message_textarea:focus { border-top: none; border-left: none; border-right: none; }
 
 /*------------------ RIGHT SIDEBAR --------------------*/
 
@@ -337,6 +338,7 @@ body.night-mode #compose_buttons .button.small { background-color: #454545; }
 body.night-mode #compose_buttons .button.small:hover { background-color: #157BB9; }
 body.night-mode .message_header_colorblock { border-color: #909090; }
 body.night-mode #send_controls .compose_checkbox_label { color: #fff; }
+body.night-mode textarea.new_message_textarea:focus, body.night-mode textarea:focus { border-color: #909090; }
 
 body.night-mode .column-right .right-sidebar { background-color: #2a2a2a; }
 body.night-mode .right-sidebar .sidebar-title { color: #d2d2d2; opacity: 1; }
