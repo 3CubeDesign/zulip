@@ -74,9 +74,9 @@ nav .column-left .nav-logo { height: 37px; }
 
 #tab_bar #tab_list li.active { line-height: 50px; background-color: transparent; font-weight: 600; }
 #tab_bar #tab_list li.active:after { content: ""; display: inline-block; position: absolute; top: 10px; right: 0; background: #eaecee; width: 1px; height: 30px; line-height: 50px; }
-#tab_bar #tab_list li.private_message { color: #2A2A2A; padding: 0 11px }
+#tab_bar #tab_list li:first-child { color: #2A2A2A; padding: 0 11px; }
 #tab_bar #tab_list li.private_message a { color: #2A2A2A; }
-#tab_bar #tab_list li.inactive.private_message { line-height: 50px; display: inline-block; }
+#tab_bar #tab_list li.inactive.private_message { line-height: 50px; display: inline-block; background-color: transparent; }
 #tab_bar #tab_list li + li { padding: 0 10px 0 5px; }
 #tab_bar #tab_list li + li.active { margin-left: -10px; }
 #tab_bar #tab_list li + li.active:before { content: ""; position: relative; left: -5px; top: -1px; border: solid #c1c1c1; border-width: 0 2px 2px 0; display: inline-block; padding: 3px; transform: rotate(-45deg); -webkit-transform: rotate(-45deg); }
@@ -89,7 +89,7 @@ nav .column-left .nav-logo { height: 37px; }
 #streamlist-toggle-button { padding-top: 15px; padding-bottom: 15px; background-color: transparent; color: #333333; }
 
 /*---------- LEFT SIDEBAR ----------------*/
-.column-left { z-index: 100; }
+.column-left { z-index: 100!important; }
 .toggle-sidebar { background: #222222; }
 .tab.active .server-tab { background-color: #014E8E; }
 
@@ -117,9 +117,9 @@ li.active-filter, li.active-sub-filter { background: #3E3E3E; border-radius: 0; 
 #global_filters .global-filter .arrow i { font-size: inherit; padding: 7px 0; }
 #global_filters .count { margin-right: 15px; }
 #global_filters > li a.conversation-partners { padding-left: 5px; font-size: 15px; }
-#global_filters > li.active-sub-filter a.conversation-partners { font-weight: 700; color: #fff; }
+#global_filters li.active-sub-filter a.conversation-partners { font-weight: 700; color: #fff; }
 .narrows_panel li { margin: 2px 0; }
-#stream_filters li.highlighted_stream, .bottom_left_row:hover, .top_left_row:hover { background-color: transparent; }
+#stream_filters li.highlighted_stream, .bottom_left_row:hover, .top_left_row:hover { background-color: transparent!important; }
 #stream_filters .count, .private_message_count, .top_left_all_messages .count, .top_left_mentions .count, .top_left_private_messages .count, .top_left_starred_messages .count, .topic-unread-count { border-radius: 8px; text-align: center; }
 #streams_header { padding: 0 0 8px 16px; }
 .stream_list_toggle { margin-left: -12px; margin-right: 5px; }
@@ -294,15 +294,19 @@ input.toggle-round:checked:hover + label:before { background-color: #0796ED; }
 
 /*---------------------- DARK MODE ------------------------*/
 body.night-mode { color:#fff; background: #222222; }
-body.night-mode .column-left { border-right: 1px solid #222222; z-index: 3; }
+body.night-mode .column-left { border-right: 1px solid #222222; z-index: 3!important; }
 body.night-mode #searchbox_legacy #search_query { background-color: rgba(42, 42, 42, 1); }
 body.night-mode #userlist-toggle-button { color: #ffffff; }
+body.night-mode .left-sidebar li { border-radius: 4px; }
 body.night-mode #tab_bar #tab_list li {  }
+body.night-mode #tab_bar #tab_list li:first-child { color: #fff; }
 body.night-mode #tab_bar #tab_list li.private_message a { color: #fff; }
+body.night-mode #tab_bar #tab_list li.active { background-color: transparent; }
 body.night-mode #tab_bar #tab_list li.active:after { background: #454545; }
+body.night-mode li.active-filter, body.night-mode li.active-sub-filter { background-color: #3e3e3e; }
 body.night-mode #tab_bar #tab_list li.narrow_description, body.night-mode #tab_bar #tab_list li.sub_count { color: #a1a1a1; }
 body.night-mode #tab_bar #tab_list li.sub_count:before, body.night-mode #tab_bar #tab_list li.sub_count:after { background: #454545; }
-body.night-mode #message_edit_tooltip, body.night-mode #searchbox .search_button, body.night-mode #searchbox .search_icon, body.night-mode #searchbox_legacy .search_button, body.night-mode #searchbox_legacy .search_icon, body.night-mode #stream_filters li:hover .stream-sidebar-arrow, body.night-mode #user-groups .save-instructions, body.night-mode #user_presences li:hover .user-list-arrow, body.night-mode .clear_search_button, body.night-mode .clear_search_button:active, body.night-mode body.night-mode .clear_search_button:focus, body.night-mode .clear_search_button[disabled]:hover, body.night-mode .close, body.night-mode li.top_left_all_messages:hover .all-messages-arrow, body.night-mode li.top_left_starred_messages:hover .starred-messages-sidebar-arrow, body.night-mode li.topic-list-item:hover .topic-sidebar-arrow { color: #878787; }
+body.night-mode #message_edit_tooltip, body.night-mode #searchbox .search_button, body.night-mode #searchbox .search_icon, body.night-mode #searchbox_legacy .search_button, body.night-mode #searchbox_legacy .search_icon, body.night-mode #stream_filters li:hover .stream-sidebar-arrow, body.night-mode #user-groups .save-instructions, body.night-mode #user_presences li:hover .user-list-arrow, body.night-mode .clear_search_button, body.night-mode .clear_search_button:active, body.night-mode body.night-mode .clear_search_button:focus, body.night-mode .clear_search_button[disabled]:hover, body.night-mode .close, body.night-mode li.top_left_all_messages:hover .all-messages-arrow, body.night-mode li.top_left_starred_messages:hover .starred-messages-sidebar-arrow, body.night-mode li.topic-list-item:hover .topic-sidebar-arrow { color: #878787!important; }
 body.night-mode #compose, body.night-mode #settings_page .form-sidebar, body.night-mode #settings_page .right, body.night-mode #subscription_overlay .right, body.night-mode #tab_bar_underpadding, body.night-mode .app-main, body.night-mode .column-left .left-sidebar, body.night-mode .column-middle, body.night-mode .column-right .right-sidebar, body.night-mode .floating_recipient .message-header-wrapper, body.night-mode .header-main { background-color: #222222; }
 body.night-mode .message_area_padder { background-color: #222222; }
 body.night-mode .floating_recipient .message-header-contents { box-shadow: 0 2px 5px 2px #222222; }
