@@ -223,7 +223,7 @@ div.focused_table { font-size: 15px; }
 .compose_table .drafts-link { top: 7px; font-size: 15px; margin-left: 10px; }
 #send_controls .compose_checkbox_label { font-size: 14px; line-height: 35px; }
 .compose_table .message_header_colorblock, .compose_table .message_header_colorblock.message_header_private_message { border-radius: 0; }
-.compose_table .message_header, .compose_table .message_header_colorblock { box-shadow: none; }
+.compose_table .message_header, .compose_table .message_header_colorblock { box-shadow: none!important; }
 .compose_table .recipient_box, textarea.new_message_textarea, .preview_message_area { border-radius: 0; border-bottom: 1px solid #C7C7C7; border-left: none; border-right: none; border-top: none; padding: 7px; background-color: transparent; }
 textarea.new_message_textarea { width: calc(100% - 18px); }
 .date_row span, .sub-unsub-message span { text-transform: none; }
