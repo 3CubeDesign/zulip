@@ -161,6 +161,7 @@ li.show-more-topics a { font-size: 100%; }
 .message_header { border-bottom: 1px solid #EAECEE; line-height: 38px; overflow: visible; }
 .message-header-contents { background-color: #fff; border: none; border-radius: 6px 6px 0 0; }
 .message_header_private_message .message-header-contents { background: #fff; }
+.message_header_private_message .message_label_clickable { font-size: 15px; }
 .floating_recipient .message-header-contents { border-radius: 0 0 6px 6px; }
 .stream_label { line-height: 28px; height: 28px; font-size: 15px; }
 .stream_label:before, .stream_label:after { display: none; }
