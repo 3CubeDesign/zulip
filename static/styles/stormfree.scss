@@ -160,6 +160,7 @@ li.show-more-topics a { font-size: 100%; }
 .message_list .recipient_row { background: #fff; border-radius: 6px; border: none; }
 .message_header { border-bottom: 1px solid #EAECEE; line-height: 38px; overflow: visible; }
 .message-header-contents { background-color: #fff; border: none; border-radius: 6px 6px 0 0; }
+.message_header_private_message .message-header-contents { background: #fff; }
 .floating_recipient .message-header-contents { border-radius: 0 0 6px 6px; }
 .stream_label { line-height: 28px; height: 28px; font-size: 15px; }
 .stream_label:before, .stream_label:after { display: none; }
@@ -318,7 +319,9 @@ body.night-mode .column-middle, body.night-mode #searchbox_legacy, body.night-mo
 body.night-mode .column-middle-inner, body.night-mode .message_header, body.night-mode .column-right { border-bottom: 1px solid #454545; }
 body.night-mode .message_list .recipient_row { background-color: #333333; }
 body.night-mode .message-header-contents { background-color: #333333; }
+body.night-mode .message_header_private_message .message-header-contents { background-color: #333333; }
 body.night-mode .message_header_stream a.message_label_clickable span { color: #fff; }
+body.night-mode .stream_label { color: #fff; }
 body.night-mode .message_content { color: #d2d2d2; }
 body.night-mode .date_row .date-line { opacity: 0.2; }
 body.night-mode input[type=text] { background-color: transparent; }
